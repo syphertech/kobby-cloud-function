@@ -1,9 +1,7 @@
-firebase_admin==6.5.0
-Flask==3.0.3
-functions_framework==3.8.1
-noisereduce==3.0.2
-numpy==2.1.1
-protobuf==3.20.3
-pydub==0.25.1
-Requests==2.32.3
-scipy==1.14.1
+firebase_admin<=6.5.0
+Flask<=3.0.3
+functions_framework>=3.8.1
+protobuf>=3.20.3
+Requests>=2.32.3
+google-cloud-secret-manager>=2.20.1
+PyJWT>=2.9.0
